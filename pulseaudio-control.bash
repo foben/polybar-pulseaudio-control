@@ -10,9 +10,9 @@ OSD="no"  # On Screen Display message for KDE if enabled
 INC=2  # Increment when lowering/rising the volume
 MAX_VOL=130  # Maximum volume
 AUTOSYNC="no"  # All programs have the same volume if enabled
-VOLUME_ICONS=( "# " "# " "# " )  # Volume icons array, from lower volume to higher
-MUTED_ICON="# "  # Muted volume icon
-MUTED_COLOR="%{F#6b6b6b}"  # Color when the audio is muted
+VOLUME_ICONS=( " " " " " " )  # Volume icons array, from lower volume to higher
+MUTED_ICON=" "  # Muted volume icon
+MUTED_COLOR="%{F#f92672}"  # Color when the audio is muted
 DEFAULT_SINK_ICON=""  # The default sink icon if a custom one isn't found
 CUSTOM_SINK_ICONS=(  )  # Custom sink icons in index of sink order
 NOTIFICATIONS="no"  # Notifications when switching sinks if enabled
@@ -20,7 +20,10 @@ SINK_BLACKLIST=(  )  # Index blacklist for sinks when switching between them
 
 # maps pulse-audio sink names to human-readable names
 declare -A DISPLAY_NAMES
-DISPLAY_NAMES["alsa_output.usb-SomeManufacturer_SomeUsbSoundcard-00.analog-stereo"]="External Soundcard"
+DISPLAY_NAMES["alsa_output.pci-0000_00_1f.3.analog-stereo"]=" Built-In"
+DISPLAY_NAMES["alsa_output.usb-SteelSeries_SteelSeries_Arctis_7-00.analog-stereo"]=" Arctis S"
+DISPLAY_NAMES["alsa_output.usb-SteelSeries_SteelSeries_Arctis_7-00.analog-mono"]=" Arctis M"
+DISPLAY_NAMES["alsa_output.usb-0b0e_Jabra_Speak_710_745C4B105723-00.analog-stereo"]="磊 Jabra   "
 
 
 # Environment & global constants for the scriot
