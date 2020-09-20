@@ -23,7 +23,10 @@ declare -A DISPLAY_NAMES
 DISPLAY_NAMES["alsa_output.pci-0000_00_1f.3.analog-stereo"]=" Built-In"
 DISPLAY_NAMES["alsa_output.usb-SteelSeries_SteelSeries_Arctis_7-00.analog-stereo"]=" Arctis S"
 DISPLAY_NAMES["alsa_output.usb-SteelSeries_SteelSeries_Arctis_7-00.analog-mono"]=" Arctis M"
-DISPLAY_NAMES["alsa_output.usb-0b0e_Jabra_Speak_710_745C4B105723-00.analog-stereo"]="磊 Jabra   "
+DISPLAY_NAMES["alsa_output.usb-0b0e_Jabra_Speak_710_745C4B105723-00.analog-stereo"]="磊 Jabra A   "
+DISPLAY_NAMES["alsa_output.usb-0b0e_Jabra_Link_370_745C4B89DBB2011200-00.analog-stereo"]="磊 Jabra B   "
+DISPLAY_NAMES["alsa_output.usb-0b0e_Jabra_Speak_710_745C4B5C3083-00.analog-stereo"]="磊 Jabra B (USB)   "
+DISPLAY_NAMES["alsa_output.usb-Burr-Brown_from_TI_USB_audio_CODEC-00.analog-stereo"]="  Docking   "
 
 
 # Environment & global constants for the scriot
